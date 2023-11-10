@@ -1,0 +1,8 @@
+<launch>
+
+<param name="freq" value = "1" />
+
+<node name="the_talker" pkg="tut2_pkg" type="talker.py" />
+<node name = "the_listener" pkg="tut2_pkg" type="listener.py" output="screen" />
+
+</launch>
